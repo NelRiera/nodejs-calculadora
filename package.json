@@ -28,7 +28,13 @@
         "prettier": "2.8.4"
     },
     "imports": {
-        "#Lib/*": "./src/lib/*"
+        "#Lib/*": "./src/lib/*",
+        "#Contants/*": [
+            "./src/constants/*"
+        ],
+        "#Errors/*": [
+            "./src/errors/*"
+        ]
     },
     "lint-staged": {
         "*.js": "eslint  --fix",

@@ -4,7 +4,9 @@
         "module": "nodenext",
         "baseUrl": "./",
         "paths": {
-            "#Lib/*": ["./src/lib/*"]
+            "#Lib/*": ["./src/lib/*"],
+            "#Contants/*": ["./src/constants/*"],
+            "#Errors/*": ["./src/errors/*"]
         }
     }
 }
